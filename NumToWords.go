@@ -1,7 +1,6 @@
-package main
+package terbilang
 
 import (
-	"fmt"
 	"strconv"
 	"strings"
 )
@@ -143,9 +142,4 @@ func NumToWords(total int) string {
 		}
 	}
 	return strings.Trim(ret, " ")
-}
-
-func main() {
-	angka := NumToWords(1001211)
-	fmt.Println(angka)
 }
